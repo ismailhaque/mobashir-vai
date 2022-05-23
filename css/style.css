@@ -23,6 +23,9 @@ h1,h2,h3,h4,h5,h6{
     max-width: 1200px;
     margin: auto;
 }
+body{
+    max-width: 1400px;
+}
 
 .clear{
     content: '';
@@ -407,7 +410,7 @@ body {
     border: solid 1px #EAEAEA;
     padding: 24px;
     border-radius: 6px;
-    flex-basis: 27%;
+    flex-basis: 32%;
 }
 .hsec8 .card h1{
     font-size: 1.5em;
@@ -428,7 +431,7 @@ body {
     align-items: center;
 }
 .hsec9 .card .content{
-    flex-basis: 27%;
+    flex-basis: 31%;
     padding: 20px;
     background-color: white;
 }
@@ -957,3 +960,25 @@ body {
     font-family: "Montserrat";
     font-size: 16px;
 }
+/* contact page css */
+#content{
+    background: #f9f9f9;
+    padding: 100px 0px;
+}
+#content .title{
+    padding-left: 100px;
+    color: #000;
+    padding-bottom: 20px;
+    font-size: 50px;
+}
+.no_content{
+    margin: 0 100px;
+    background: #fff;
+    padding: 30px;
+}
+.no_content ul li{
+    font-family: "Montserrat";
+    font-size: 16px;
+    padding: 5px 0;
+}
+/* terms & condition page css */

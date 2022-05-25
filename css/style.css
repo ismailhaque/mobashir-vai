@@ -492,6 +492,7 @@ body {
 #top a{
     font-size: 15px;
     padding: 10px;
+    text-align: center;
     color: #fff;
     background: #000;
     position: fixed;
@@ -500,7 +501,7 @@ body {
     border-radius: 10px;
 }
 #top a i{
-    font-size: 25px;
+    font-size: 20px;
     color: #fff;
 }
 
@@ -1018,7 +1019,7 @@ body {
     font-size: 16px;
     font-family: "Montserrat";
 }
-.sppsec1 .content a{
+.sppsec1 .content a, .all-coures .content .take-btn{
     color: #fff;
     background: #606060;
     font-size: 16px;
@@ -1096,9 +1097,186 @@ body {
     overflow: hidden;
     transition: .5s;
 }
+.sppfaq .faq_content .faq_body ul li{
+    border: 1px solid #e9e9e9;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+}
+.sppfaq .faq_content .faq_body ul li i{
+    padding-right: 20px;
+}
 .sppfaq .faq_content .faq_body.active{
     display: block;
-    border: 1px solid #e9e9e9;
-    padding: 10px ;
     height: auto;
 }
+/* single page css done */
+
+.coures_sec1{
+    width: 100%;
+    height: auto;
+    padding: 150px 100px 20px;
+}
+.all-coures .search_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+}
+.all-coures .search_menu .search_tag_input{
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+}
+.all-coures .search_menu .search_tag_input p{
+    padding: 5px;
+    border: 1px solid gray;
+    margin-right: 20px;
+    font-size: 16px;
+    font-family: "Montserrat";
+    cursor: pointer;
+    margin: 0 20px 20px 0;
+}
+.all-coures .search_menu .search_tag_input p i{
+    font-size: 14px;
+}
+.all-coures .search_menu .search_tag_input #search{
+    border: none;
+    padding: 7px;
+    font-size: 16px;
+    font-family: "Montserrat";
+    background: #fff;
+}
+input:focus {
+    border: none;
+  }
+.all-coures .search_menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.all-coures .search_menu #select_option{
+    border: 1px solid gray;
+    padding: 5px;
+    font-size: 16px;
+    font-family: "Montserrat";
+    background: #fff;
+}
+/* coures section one end */
+
+.coures_post{
+    padding: 0px 100px 50px;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .form-group {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .form-group input {
+    padding: 0;
+    height: initial;
+    width: initial;
+    margin-bottom: 0;
+    display: none;
+    cursor: pointer;
+  }
+  
+  .form-group label {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .form-group label:before {
+    content:'';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 1px solid #7a7a7a;
+    box-shadow: 0 1px 2px rgba(182, 36, 36, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 8px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 15px;
+  }
+  
+  .form-group input:checked + label:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 4px;
+    left: 7px;
+    width: 5px;
+    height: 10px;
+    border: solid gray;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  .coures_post .search_option .s-box{
+      background: #fff;
+      padding: 20px;
+      border: 1px solid #bdbdbd;
+      margin-bottom: 20px;
+  }
+
+  .coures_post{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+  }
+  .coures_post .search_option{
+    flex-basis: 0%;
+    overflow: hidden;
+    transition: .2s;
+}
+
+.coures_post .all-coures{
+        flex-basis: 100%;
+}
+  .coures_post .search_option.active{
+      flex-basis: 30%;
+      overflow: hidden;
+  }
+  .coures_post .all-coures.active{
+      flex-basis: 68%;
+  }
+  #search_option_show.active{
+      display: none;
+  }
+  #search_option_close.active{
+      display: none;
+  }
+
+  #shop_all_coures .coures-show{
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 50px;
+  }
+  #shop_all_coures .coures-show .images{
+      flex-basis: 35%;
+  }
+  #shop_all_coures .coures-show .content{
+      flex-basis: 63%;
+  }
+  #shop_all_coures .coures-show .images a img{
+      width: 100%;
+  }
+  #shop_all_coures .coures-show .content .title{
+    font-size: 35px;
+    color: #121212;
+  }

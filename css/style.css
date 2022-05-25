@@ -1254,11 +1254,17 @@ input:focus {
   .coures_post .all-coures.active{
       flex-basis: 68%;
   }
+  #search_option_show{
+      display: none;
+  }
   #search_option_show.active{
+      display: block;
+  }
+  #search_option_close{
       display: none;
   }
   #search_option_close.active{
-      display: none;
+      display: block;
   }
 
   #shop_all_coures .coures-show{

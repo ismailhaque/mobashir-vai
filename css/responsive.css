@@ -1,0 +1,309 @@
+@media(max-width: 1400px){
+    .hsec1 .content .col1, .col2 {
+        flex-basis: 49%;
+    }
+}
+/***desktop width***/
+@media(max-width: 1200px){
+
+    .hsec1 .content{
+        padding: 150px 50px 50px;
+        align-items: flex-start;
+    }
+    .hsec2 {
+        padding: 100px 50px;
+    }
+    .hsec3 {
+        padding: 50px 50px;
+    }
+    .hsec4 {
+        margin: 100px 50px;
+    }
+    .hsec5 {
+        padding: 0 50px;
+    }
+    .hsec6 {
+        margin: 100px 50px;
+    }
+    .hsec7 {
+        padding: 0 50px;
+    }
+    .hsec7 .images img {
+        flex-basis: 15%;
+        width: 15%;
+    }
+    .hsec8 {
+        padding: 100px 50px;
+    }
+    .hsec9 {
+        margin: 0 50px 100px;
+        padding: 25px;
+    }
+    .fsec10 {
+        padding: 20px 50px;
+    }
+    .fsec10 .col3 {
+        display: flex;
+        justify-content: flex-end;
+        text-align: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-content: center;
+        align-items: flex-start;
+    }
+    .fsec10 .col3 a {
+        margin-right: 20px;
+    }
+}
+/***laptop width***/
+@media(max-width: 992px){
+
+    .hsec1 .content {
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-direction: column-reverse;
+    }
+    .hsec1 .content .col1{
+        margin-top: 25px;
+    }
+    .hsec2 .content {
+        width: 100%;
+    }
+    .hsec2 .post, .hsec5 .post {
+        flex-wrap: wrap;
+    }
+    .hsec2 .post .post_content, .hsec5 .post .post_content {
+        flex-basis: 48%;
+    }
+    .hsec3 .content img {
+        width: 35px;
+    }
+    .hsec4 {
+        flex-direction: column-reverse;
+    }
+    .hsec4 .video {
+        flex-basis: 100%;
+    }
+    .hsec4 .content {
+        flex-basis: 100%;
+    }
+    .hsec6 {
+        align-items: stretch;
+        flex-direction: column;
+    }
+    .hsec6 .sec6_img img {
+        margin-bottom: 25px;
+    }
+    .hsec8 .card .content {
+        padding: 10px;
+    }
+    .hsec8 .card .content img{
+        width: 50px;
+    }
+    .fsec10 .col3 {
+        justify-content: flex-end;
+    }
+    .hsec4 {
+        align-items: center;
+    }
+
+}
+/***tab width***/
+@media(max-width: 768px){
+    /* header css */
+    .header {
+        padding-top: 15px;
+    }
+    .header-dash .shopping-cart{
+        display: none;
+    }
+    .header-dash .responsive_menu_show{
+        display: block;
+        font-size: 30px;
+    }
+    .responsive_header.active {
+        right: 0%;
+    }
+    .responsive_header .check_search i {
+        font-size: 30px;
+    }
+    .header-content p {
+        display: none;
+    }
+    .responsive_header-content p {
+        padding: 0px 10px !important;
+        
+    }
+    .header-dash button {
+        font-size: 25px;
+    }
+    .header-dash .responsive_menu_show{
+        display: block;
+    }
+    .header-dash .responsive_menu_show.active{
+        display: none;
+    }
+    .header-dash .menu-close.active{
+        display: block;
+    }
+    /* header end */
+    .hsec2 {
+        padding: 50px 50px;
+    }
+    .hsec3 {
+        flex-direction: column;
+    }
+    .hsec3 .content img {
+        width: 60px;
+    }
+    .hsec3 .content {
+        padding-bottom: 20px;
+    }
+    .hsec4 {
+        margin: 50px 50px;
+        padding: 25px;
+    }
+    .hsec6 {
+        margin: 50px 50px;
+    }
+    .hsec8 {
+        padding: 50px 50px;
+    }
+    .hsec8 .card {
+        flex-direction: column;
+    }
+    .hsec8 .card .content {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .hsec8 .card {
+        padding-bottom: 0px;
+    }
+    .hsec9 .card {
+        flex-direction: column;
+    }
+    .hsec9 .card .content {
+        margin-bottom: 20px;
+    }
+    .fsec10 {
+        flex-wrap: wrap;
+    }
+    .fsec10 .col1 {
+        flex-basis: 49%;
+    }
+    .fsec10 .col2 {
+        flex-basis: 49%;
+    }
+    .fsec10 .col3 {
+        flex-basis: 100%;
+    }
+    .fsec10 .col3 {
+        justify-content: space-between;
+        align-content: center;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+    }
+    .fsec10 {
+        padding: 20px 15px;
+    }
+}
+/***fablate width***/
+@media(max-width: 576px){
+    .container {
+        padding: 0 10px;
+    }
+    .hsec1 .content {
+        padding: 100px 20px 50px 20px;
+    }
+    .hsec1 .content .wordplaces {
+        display: flex;
+        text-align: center;
+        flex-wrap: nowrap;
+        align-items: stretch;
+        flex-direction: column;
+    }
+    .hsec1 .content .wordplaces .border1 {
+        margin-bottom: 20px;
+    }
+    .hsec1 .content .wordplaces .border2 {
+        margin-bottom: 20px;
+    }
+    .hsec2 {
+        padding: 50px 20px;
+    }
+    .hsec2 .post .post_content, .hsec5 .post .post_content {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .hsec3 {
+        padding: 50px 20px;
+    }
+    .hsec4 {
+        margin: 50px 20px;
+    }
+    .hsec5 {
+        padding: 0 20px;
+    }
+    .hsec5 .content_description {
+        padding: 10px 20px;
+    }
+    .hsec6 {
+        margin: 50px 20px;
+    }
+    .hsec6 .content {
+        flex-basis: 100%;
+    }
+    .hsec6 .sec6_img {
+        flex-basis: 100%;
+    }
+    .hsec6 {
+        padding: 20px 20px 50px 20px;
+    }
+    .hsec7 {
+        padding: 0 20px;
+    }
+    .hsec8 {
+        padding: 50px 20px;
+    }
+    .hsec9 {
+        margin: 0 20px 50px;
+    }
+    .fsec10 .col1 {
+        flex-basis: 100%;
+    }
+    .fsec10 .col2 {
+        flex-basis: 100%;
+    }
+    .fsec10 .col3 {
+        flex-basis: 100%;
+    }
+    .fsec10 .col2 {
+        justify-content: flex-start;
+        margin-top: 20px;
+    }
+    .fsec10 .col3 {
+        display: flex;
+        justify-content: flex-start;
+        text-align: center;
+        flex-direction: row;
+        align-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+    .hsec7 h1 {
+        font-size: 40px;
+    }
+    .hsec6 .content h1 {
+        font-size: 40px;
+    }
+    .hsec2 .content h1, .hsec5 .content h1 {
+        font-size: 40px;
+    }
+    .hsec1 .content h1 {
+        font-size: 40px;
+    }
+}
+/***phone width***/

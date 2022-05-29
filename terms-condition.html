@@ -15,28 +15,36 @@
 
        <!-- head-start -->
     
-       <header class="header clear">
+       <header class="header">
         <div class="container">
-
-         <div class="header-logo left w-20">
+    
+         <div class="header-logo">
              <a href="index.html"><img class="header--logo" src="./img/TheWMHIonline-logo.png" /></a>
            </div>
-
-           <div class="header-content left w-50">
+    
+           <div class="header-content">
               <p class="right"><i class="fas fa-envelope"></i>Technical Support: techsupport@thewmhi.com</p>
            </div>
-
-           <div class="header-dash right">
-                 <div class="right-logo w-15 left">
+    
+           <div class="header-dash">
                   <button>LOGIN</button>
-                 </div>
-                 <div class="check w-15 right">
-                     <i class="fas fa-shopping-cart"></i>
-                 </div>
+                  <i style="cursor: pointer;" class="shopping-cart fas fa-shopping-cart"></i>
+                  <i style="cursor: pointer;" class="responsive_menu_show fas fa-bars"></i>
+                  <a style="cursor: pointer;" class="menu-close"><i class="fas fa-times"></i></a>
            </div>
-
+    
         </div>
      </header>
+    
+     <div class="responsive_header">
+        <div class="check_search">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+        <div class=" responsive_header-content">
+            <p><i class="fas fa-envelope"></i>Technical Support: techsupport@thewmhi.com</p>
+         </div>
+     </div>
 
 <!-- end -->
     <!-- form -->
@@ -109,5 +117,6 @@
             <a href="privacy-policy.html">PRIVACY POLICY</a>
         </div>
     </section>
+    <script src="./js/menu.js"></script>
 </body>
 </html>

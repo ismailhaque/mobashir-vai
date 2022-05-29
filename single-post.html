@@ -15,36 +15,44 @@
 
        <!-- head-start -->
     
-    <header class="header clear">
+       <header class="header">
         <div class="container">
-
-         <div class="header-logo left w-20">
+    
+         <div class="header-logo">
              <a href="index.html"><img class="header--logo" src="./img/TheWMHIonline-logo.png" /></a>
            </div>
-
-           <div class="header-content left w-50">
+    
+           <div class="header-content">
               <p class="right"><i class="fas fa-envelope"></i>Technical Support: techsupport@thewmhi.com</p>
            </div>
-
-           <div class="header-dash right">
-                 <div class="right-logo w-15 left">
+    
+           <div class="header-dash">
                   <button>LOGIN</button>
-                 </div>
-                 <div class="check w-15 right">
-                     <i class="fas fa-shopping-cart"></i>
-                 </div>
+                  <i style="cursor: pointer;" class="shopping-cart fas fa-shopping-cart"></i>
+                  <i style="cursor: pointer;" class="responsive_menu_show fas fa-bars"></i>
+                  <a style="cursor: pointer;" class="menu-close"><i class="fas fa-times"></i></a>
            </div>
-
+    
         </div>
-    </header>
+     </header>
+    
+     <div class="responsive_header">
+        <div class="check_search">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-shopping-cart"></i>
+        </div>
+        <div class=" responsive_header-content">
+            <p><i class="fas fa-envelope"></i>Technical Support: techsupport@thewmhi.com</p>
+         </div>
+     </div>
 
 <!-- end -->
     <!-- form -->
 
     <section class="sppsec1">
         <div class="content">
-            <a href="Individual">Individual</a> &nbsp;
-            <a href="#">Workplace Mental Health</a>
+            <a href="individual.html">Individual</a> &nbsp;
+            <a href="individual.html">Workplace Mental Health</a>
             <h2>Suicide Prevention Skills</h2>
             <p>When you hear that a friend or loved one is contemplating suicide, your initial reaction may be to panic. You may not feel confident in your ability to help this person that you care about to confront their issues. You’re afraid that you may say the wrong thing and you worry that you may be held responsible in some way if you have a conversation and the person chooses to commit the devastating act.
 
@@ -53,7 +61,7 @@
             Our suicide prevention training is designed to equip you with the skills you need to help others who are contemplating suicide. You will develop your capacity to confidently handle a suicide crisis, allowing for the best outcome possible for all involved.</p>
         </div>
         <div class="course">
-            <img src="./img/Suicide-Prevention-online-course.jpg" alt="">
+            <img  class="add_btn" style="cursor: pointer;" src="./img/Suicide-Prevention-online-course.jpg" alt="">
             <a href="cart.html">Take This Course</a>
             <p class="price">$75.00</p>
             <p class="list"><span>Unlimited Access</span><i class="fas fa-key"></i></p>
@@ -157,7 +165,46 @@
         </div>
             
     </section>
+    
     <!-- section 2 end -->
+    <section class="related_course individual_sec1">
+        <h2>Related Course</h2>
+        <div class="content">
+            <div class=" card">
+                <img class="add_btn" style="cursor: pointer;"  src="./img/Anti-Bullying-course-header.jpg" alt="">
+                    <i style="cursor: pointer;" class="fas fa-play"></i>
+                <div style="padding: 10px;">
+                    <p>The New Anxiety Obliterator: Now You Too Can Master Anxiety Signs And Symptoms Like A Pro</p>
+                <p class="price">$75.00</p>
+                </div>
+            </div>
+            <div class="add_btn card">
+                <img  class="add_btn" style="cursor: pointer;"  src="./img/Anti-Bullying-course-header.jpg" alt="">
+                    <i style="cursor: pointer;" class="fas fa-play"></i>
+                <div style="padding: 10px;">
+                    <p>The New Anxiety Obliterator: Now You Too Can Master Anxiety Signs And Symptoms Like A Pro</p>
+                <p class="price">$75.00</p>
+                </div>
+            </div>
+            <div class="add_btn card">
+                <img  style="cursor: pointer;"  src="./img/Anti-Bullying-course-header.jpg" alt="">
+                    <i style="cursor: pointer;" class="fas fa-play"></i>
+                <div style="padding: 10px;">
+                    <p>The New Anxiety Obliterator: Now You Too Can Master Anxiety Signs And Symptoms Like A Pro</p>
+                <p class="price">$75.00</p>
+                </div>
+            </div>
+
+    </section>
+    <section id="course-video" class=" course_video">
+        <div class="modal-content">
+            <a class="al-close">&times;</a>
+        <video width="520" height="340" controls>
+            <source src="https://youtu.be/7g3uSQdi-O8" type="video/mp4">
+        </video>
+        </div>
+    </section>
+    <!-- video modal -->
     <!--  footer -->
     <section class="fsec10">
         <div class="col1">
@@ -181,5 +228,7 @@
     </section>
 
     <script src="./js/app.js"></script>
+    <script src="./js/function.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>

@@ -7,6 +7,68 @@
         padding-right: 100px;
     } 
     /**************************** Home Page COmplated  *********************************/
+    .wsec1 {
+        padding: 200px 100px;
+    }
+    .wsec1 .content {
+        width: 70%;
+    }
+    .wsec2 {
+        padding: 50px 100px;
+    }
+    .wsec3 {
+        padding: 50px 100px;
+    }
+    .wsec4, .wsec6 {
+        background: #e4f5ed;
+        padding: 0 100px;
+    }
+    .wsec5 {
+        padding: 0 100px;
+    }
+    .wsec9 {
+        padding: 100px;
+    }
+    .wsec10 {
+        padding: 100px;
+    }
+    /* **************** workplace page complated ****************** */
+    .gsec2 {
+        padding: 50px 100px;
+    }
+    /* **************** government page complated ****************** */
+    .sppsec1 {
+        padding: 200px 100px 100px;
+    }
+    .sppsec2 {
+        padding: 100px;
+    }
+    .related_course {
+        padding: 0px 100px 50px !important;
+    }
+    /* *********** single post page done ******************* */
+    .coures_sec1 {
+        padding: 150px 100px 20px;
+    }
+    .coures_post {
+        padding: 0px 100px 50px;
+    }
+    /* ************all coures page done */
+    .individual_sec1 {
+        padding: 150px 100px 50px;
+    }
+    /* ****************** invidual page done ***************** */
+    #contact_page {
+        padding: 150px 100px 100px;
+    }
+    /* ***************** contact page done **************** */
+    .no_content {
+        margin: 0 100px;
+    }
+    #content .title{
+        padding-left: 100px;
+    }
+    /* ***************terms $ condition page done */
 
 }
 /***desktop width***/
@@ -70,9 +132,71 @@
         margin-right: 20px;
     }
     /**************************** Home Page COmplated  *********************************/
-    #contact_page {
-        margin: 100px 50px;
+    .wsec1 {
+        padding: 200px 50px;
     }
+    .wsec1 .content {
+        width: 80%;
+    }
+    .wsec2 {
+        padding: 50px 50px;
+    }
+    .wsec3 {
+        padding: 50px 50px;
+    }
+    .wsec4, .wsec6 {
+        padding: 0 50px;
+    }
+    .wsec5 {
+        padding: 0 50px;
+    }
+    .hsec2 .con_width {
+        padding: 0px 50px;
+    }
+    .wsec9 {
+        padding: 50px;
+    }
+    .wsec10 {
+        padding: 50px;
+    }
+    /* **************** workplace page complated ****************** */
+    .gsec2 {
+        padding: 50px 50px;
+    }
+    /* **************** government page complated ****************** */
+    .sppsec1 {
+        padding: 200px 50px 100px;
+    }
+    .sppsec2 {
+        padding: 50px;
+    }
+    .related_course {
+        padding: 0px 50px 50px !important;
+    }
+
+    /* *********** single post page done ******************* */
+    .coures_sec1 {
+        padding: 150px 50px 20px;
+    }
+    .coures_post {
+        padding: 0px 50px 50px;
+    }
+    /* ************all coures page done */
+    .individual_sec1 {
+        padding: 150px 50px 50px;
+    }
+    /* ****************** invidual page done ***************** */
+    #contact_page {
+        padding: 150px 50px 100px;
+    }
+    /* ***************** contact page done **************** */
+    .no_content {
+        margin: 0 50px;
+    }
+    #content .title{
+        padding-left: 50px;
+    }
+    /* ***************terms $ condition page done */
 }
 /***laptop width***/
 @media(max-width: 992px){
@@ -139,9 +263,37 @@
         align-items: center;
     }
     /**************************** Home Page COmplated  *********************************/
-  #contact_page{
-        padding: 20px;
+    .wsec1 .content {
+        width: 100%;
     }
+     /* **************** workplace page complated ****************** */
+     video{
+        width: 650px;
+        height: auto;
+    }
+    .coures_post .con_width {
+        flex-direction: column;
+    }
+    .coures_post .con_width .all-coures.active{
+        flex-basis: 100%;
+    }
+    .coures_post .con_width .search_option{
+        display: none;
+        flex-basis: 0%;
+        overflow: hidden;
+        transition: .2s;
+    }
+    .coures_post .con_width .search_option.active{
+        flex-basis: 100%;
+        overflow: hidden;
+        display: block;
+        width: 100%;
+    }
+    /* ************all coures page done */
+    .individual_sec1 .content .card {
+        flex-basis: 48%;
+    }
+    /* ****************** invidual page done ***************** */
 
 }
 /***tab width***/
@@ -256,7 +408,93 @@
     .fsec10 {
         padding: 20px 15px;
     }
-    /**************************** Home Page COmplated  *********************************/
+    /**************************** Home Page Complated  *********************************/
+    .wsec3 .con_width {
+        flex-direction: column-reverse;
+    }
+    .wsec3 .images {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .wsec3 .content {
+        flex-basis: 100%;
+    }
+    .wsec4 .con_width {
+        flex-direction: column-reverse;
+    }
+    .wsec4 .images {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .wsec4 .images img{
+        width: 100vh;
+    }
+    .wsec4 .content {
+        flex-basis: 100%;
+    }
+    .wsec5 .con_width {
+        flex-direction: column;
+    }
+    .wsec5 .video {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .wsec5 .content {
+        flex-basis: 100%;
+    }
+    .wsec6 .con_width {
+        flex-direction: column-reverse;
+    }
+    .wsec8 .con_width {
+        flex-direction: column;
+    }
+    .wsec6 .images {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .wsec6 .images img{
+        width: 100vh;
+    }
+    .wsec6 .content {
+        flex-basis: 100%;
+    }
+    .wsec9 .content {
+        flex-direction: column;
+    }
+    .wsec9 .content .card{
+        margin-bottom: 20px;
+    }
+    .wsec10 .con_width {
+        flex-direction: column;
+    }
+    .wsec10 .images {
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    .wsec10 .images img{
+        width: 100vh;
+    }
+
+     /* **************** workplace page complated ****************** */
+     .gsec2 .con_width img {
+        width: 35px;
+    }
+    /* **************** government page complated ****************** */
+    video{
+        width: 500px;
+        height: auto;
+    }
+    
+    #shop_all_coures .coures-show {
+        margin-bottom: 50px;
+        flex-direction: column;
+    }
+    /* ************all coures page done */
+    #contact_page .content {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    /* ******************* contact page done ************ */
 
 }
 /***fablate width***/
@@ -385,5 +623,100 @@
     }
 
     /**************************** Home Page COmplated  *********************************/
+    .wsec1 {
+        padding: 150px 20px 50px;
+    }
+    .wsec2 {
+        padding: 50px 20px;
+    }
+    .wsec3 {
+        padding: 50px 20px;
+    }
+    .wsec4, .wsec6 {
+        padding: 0 20px;
+    }
+    .wsec4 .images img {
+        width: 100%;
+    }
+    .wsec5 {
+        padding: 0 20px;
+    }
+    .wsec6 .images img {
+        width: 100%;
+    }
+    .wsec9 {
+        padding: 50px 20px;
+    }
+    .wsec10 {
+        padding: 50px 20px;
+    }
+    /* **************** workplace page complated ****************** */
+    .gsec2 {
+        padding: 0px 20px;
+    }
+
+    .gsec2 .con_width {
+        flex-direction: column;
+    }
+    .gsec2 .con_width div{
+        flex-basis: 98%;
+        margin-bottom: 20px;
+    }
+    .gsec2 .con_width img {
+        width: 40px;
+    }
+  /* **************** government page complated ****************** */
+  .sppsec1 {
+    padding: 200px 20px 100px;
+}
+.sppsec1 .con_width {
+    flex-direction: column;
+}
+.sppsec1 .content a, .all-coures .content .take-btn {
+    display: block;
+}
+.sppsec2 {
+    padding: 50px 20px;
+}
+.related_course {
+    padding: 0px 20px 50px !important;
+}
+.individual_sec1 .content {
+    flex-direction: column;
+}
+.coures_sec1 {
+    padding: 150px 20px 20px;
+}
+.coures_post {
+    padding: 0px 20px 50px;
+}
+.all-coures .search_menu .search_tag_input {
+    flex-direction: column;
+}
+/* ************all coures page done */
+.individual_sec1 .content .card {
+    flex-basis: 100%;
+}
+.individual_sec1 {
+    padding: 150px 20px 50px;
+}
+video {
+    width: 100%;
+    height: auto;
+}
+/******************* invidual page done ******************/
+#contact_page {
+    padding: 150px 20px 100px;
+}
+/* ***************** contact page done **************** */
+.no_content {
+    margin: 0 20px;
+    padding: 15px;
+}
+#content .title{
+    font-size: 35px;
+    padding: 20px;
+}
+/* ***************terms $ condition page done */
 }
 /***phone width***/

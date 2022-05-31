@@ -7,6 +7,7 @@
     <title>All Coures</title>
     <script src="https://kit.fontawesome.com/ddb5a0223c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
 <body>
     <div id="top">
@@ -46,112 +47,116 @@
      </div>
 <!-- end -->
      <section class="coures_sec1">
-         <h2>All Courses</h2>
+         <div class="con_width">
+          <h2>All Courses</h2>
+         </div>
      </section>
      
      <!-- sec 1 end -->
      <section class="coures_post">
-         <div id="category_search_option" class="search_option">
-            <div class="s-box">
-                <h3>Category</h3>
-                <br>
-                <hr>
-                <br>
-                <div class="new">
-                      <div class="form-group">
-                        <input type="checkbox" id="Individual">
-                        <label for="Individual">Individual</label>
-                      </div>
-                      <div class="form-group">
-                        <input type="checkbox" id="Private">
-                        <label for="Private">Private</label>
-                      </div>
-                      <div class="form-group">
-                        <input type="checkbox" id="Workplace Mental Health">
-                        <label for="Workplace Mental Health">Workplace Mental Health</label>
-                      </div>
-                  </div>
-            </div>
-            <div class="s-box">
-                <h3>Instructor</h3>
-                <br>
-                <hr>
-                <br>
-                <div class="new">
-                      <div class="form-group">
-                        <input type="checkbox" id="The WMHI Admin">
-                        <label for="The WMHI Admin">The WMHI Admin</label>
-                      </div>
-                      <div class="form-group">
-                        <input type="checkbox" id="Peter Diaz">
-                        <label for="Peter Diaz">Peter Diaz</label>
-                      </div>
-                      <div class="form-group">
-                        <input type="checkbox" id="Marvic Portugal">
-                        <label for="Marvic Portugal">Marvic Portugal</label>
-                      </div>
-                      <div class="form-group">
-                        <input type="checkbox" id="WMHI Dev">
-                        <label for="WMHI Dev">WMHI Dev</label>
-                      </div>
-                  </div>
-            </div>
-            <div class="s-box">
-                <h3>Price</h3>
-                <br>
-                <hr>
-                <br>
-                <div class="new">
-                      <div class="form-group">
-                        <input name="price" type="radio" id="Free">
-                        <label for="Free">Free</label>
-                      </div>
-                      <div class="form-group">
-                        <input name="price" type="radio" id="paid">
-                        <label for="paid">Paid</label>
-                      </div>
-                  </div>
-            </div>
-         </div>
-         <div id="shop_all_coures" class="all-coures">
-            <div class="search_menu">
-                <div class="search_tag_input">
-                    <p id="search_option_show" class="active">Show Filters<i style="padding-left: 10px;" class="fas fa-plus"></i></p>
-                    <p id="search_option_close">Close Filters<i style="padding-left: 10px;" class="fas fa-times"></i></p>
-                    <input style="border-bottom: 1px solid gray;" type="text" name="search" id="search" placeholder="Type to Search">
+      <div class="con_width">
+        <div id="category_search_option" class="search_option">
+          <div class="s-box">
+              <h3>Category</h3>
+              <br>
+              <hr>
+              <br>
+              <div class="new">
+                    <div class="form-group">
+                      <input type="checkbox" id="Individual">
+                      <label for="Individual">Individual</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="checkbox" id="Private">
+                      <label for="Private">Private</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="checkbox" id="Workplace Mental Health">
+                      <label for="Workplace Mental Health">Workplace Mental Health</label>
+                    </div>
                 </div>
-                <div>
-                    <select style="cursor: pointer;" id="select_option">
-                        <option value="">Select Option</option>
-                        <option value="newest">Recently Added</option>
-                        <option value="alphabetical">Alphabetical</option>
-                        <option value="random">Random</option>
-                        <option value="popular">Popular</option>
-                        <option value="upcoming">Upcoming</option>
-                    </select>
+          </div>
+          <div class="s-box">
+              <h3>Instructor</h3>
+              <br>
+              <hr>
+              <br>
+              <div class="new">
+                    <div class="form-group">
+                      <input type="checkbox" id="The WMHI Admin">
+                      <label for="The WMHI Admin">The WMHI Admin</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="checkbox" id="Peter Diaz">
+                      <label for="Peter Diaz">Peter Diaz</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="checkbox" id="Marvic Portugal">
+                      <label for="Marvic Portugal">Marvic Portugal</label>
+                    </div>
+                    <div class="form-group">
+                      <input type="checkbox" id="WMHI Dev">
+                      <label for="WMHI Dev">WMHI Dev</label>
+                    </div>
                 </div>
+          </div>
+          <div class="s-box">
+              <h3>Price</h3>
+              <br>
+              <hr>
+              <br>
+              <div class="new">
+                    <div class="form-group">
+                      <input name="price" type="radio" id="Free">
+                      <label for="Free">Free</label>
+                    </div>
+                    <div class="form-group">
+                      <input name="price" type="radio" id="paid">
+                      <label for="paid">Paid</label>
+                    </div>
+                </div>
+          </div>
+       </div>
+       <div id="shop_all_coures" class="all-coures">
+          <div class="search_menu">
+              <div class="search_tag_input">
+                  <p id="search_option_show" class="active">Show Filters<i style="padding-left: 10px;" class="fas fa-plus"></i></p>
+                  <p id="search_option_close">Close Filters<i style="padding-left: 10px;" class="fas fa-times"></i></p>
+                  <input style="border-bottom: 1px solid gray;" type="text" name="search" id="search" placeholder="Type to Search">
+              </div>
+              <div>
+                  <select style="cursor: pointer;" id="select_option">
+                      <option value="">Select Option</option>
+                      <option value="newest">Recently Added</option>
+                      <option value="alphabetical">Alphabetical</option>
+                      <option value="random">Random</option>
+                      <option value="popular">Popular</option>
+                      <option value="upcoming">Upcoming</option>
+                  </select>
+              </div>
+          </div>
+          <div class="coures-show">
+            <div class="images">
+              <a href="single-post.html"><img src="./img/Anti-Bullying-course-header.jpg" alt=""></a>
             </div>
-            <div class="coures-show">
-              <div class="images">
-                <a href="single-post.html"><img src="./img/Anti-Bullying-course-header.jpg" alt=""></a>
-              </div>
-              <div class="content">
-                <a class="title" href="single-post.html">Anti Bullying &amp; Bullying Prevention Course</a>
-                <p>Bullying in the workplace disrupts business as usual. It is insidious. It makes for unpleasant working environments and the escalation of mental health issues. Bullying in the workplace is also costly since it taxes valuable organizational resources, and leaves employers at risk of stressful and expensive legal claims.</p>
-                <a class="take-btn" href="cart.html">TAKE THIS COURES</a>
-              </div>
+            <div class="content">
+              <a class="title" href="single-post.html">Anti Bullying &amp; Bullying Prevention Course</a>
+              <p>Bullying in the workplace disrupts business as usual. It is insidious. It makes for unpleasant working environments and the escalation of mental health issues. Bullying in the workplace is also costly since it taxes valuable organizational resources, and leaves employers at risk of stressful and expensive legal claims.</p>
+              <a class="take-btn" href="cart.html">TAKE THIS COURES</a>
             </div>
-            <div class="coures-show">
-              <div class="images">
-                <a href="single-post.html"><img src="./img/Anti-Bullying-course-header.jpg" alt=""></a>
-              </div>
-              <div class="content">
-                <a class="title" href="single-post.html">Anti Bullying &amp; Bullying Prevention Course</a>
-                <p>Bullying in the workplace disrupts business as usual. It is insidious. It makes for unpleasant working environments and the escalation of mental health issues. Bullying in the workplace is also costly since it taxes valuable organizational resources, and leaves employers at risk of stressful and expensive legal claims.</p>
-                <a class="take-btn" href="cart.html">TAKE THIS COURES</a>
-              </div>
+          </div>
+          <div class="coures-show">
+            <div class="images">
+              <a href="single-post.html"><img src="./img/Anti-Bullying-course-header.jpg" alt=""></a>
             </div>
-         </div>
+            <div class="content">
+              <a class="title" href="single-post.html">Anti Bullying &amp; Bullying Prevention Course</a>
+              <p>Bullying in the workplace disrupts business as usual. It is insidious. It makes for unpleasant working environments and the escalation of mental health issues. Bullying in the workplace is also costly since it taxes valuable organizational resources, and leaves employers at risk of stressful and expensive legal claims.</p>
+              <a class="take-btn" href="cart.html">TAKE THIS COURES</a>
+            </div>
+          </div>
+       </div>
+      </div>
      </section>
     <!--  footer -->
     <section class="fsec10">

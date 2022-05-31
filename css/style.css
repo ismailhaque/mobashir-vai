@@ -22,9 +22,12 @@ h1,h2,h3,h4,h5,h6{
     color: #003777;
 }
 
-body{
+.con_width{
     max-width: 1400px;
-    min-height: 100vh;
+    --bs-gutter-x:1.5rem;--bs-gutter-y:0;
+    width:100%;
+    margin-right:auto;
+    margin-left:auto
 }
 
 /* basic css */
@@ -125,9 +128,7 @@ body{
 }
 
 /* header end */
-
 .hsec1 .content{
-    padding: 0 100px;
     height: 800px;
     display: flex;
     justify-content: space-between;
@@ -212,9 +213,8 @@ body{
 }
 
 /* section 1 end */
-
 .hsec2{
-    padding: 100px;
+    margin: 100px 0;
 }
 .hsec2 .content{
     width: 600px;
@@ -263,10 +263,11 @@ body{
 }
 
 /* section 2 end */
-
 .hsec3{
     background: #f6f6f6;
-    padding: 50px 100px;
+}
+.hsec3 .con_width{
+    padding: 50px 0px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -279,9 +280,10 @@ body{
     align-items: flex-start;
     flex-wrap: nowrap;
 }
-.hsec3 .content img{
+.hsec3 .content img {
     margin-right: 20px;
     margin-top: 3px;
+    width: 50px;
 }
 .hsec3 .content h1{
     font-size: 1.5em;
@@ -291,16 +293,16 @@ body{
     font-size: 16px;
 }
 /* section 3 end */
-
 .hsec4{
-    margin: 100px;
+    margin: 100px 0;
+}
+.hsec4 .con_width{
     padding: 50px;
     background: #003777;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: flex-start;
-    border-radius: 15px;
 }
 .hsec4 .content{
     flex-basis: 40%;
@@ -333,9 +335,6 @@ body{
     color: #ffffff;
 }
 /* section 4 end */
-.hsec5{
-    padding: 0 100px;
-}
 .hsec5 .content_description{
     margin-top: 50px;
     padding: 20px 30px;
@@ -344,16 +343,16 @@ body{
 }
 
 /* Some of the CSS of section five is done in section two above section 5 end */
-
 .hsec6{
-    margin: 100px;
+    margin: 100px 0;
+}
+.hsec6 .con_width{
     padding: 50px;
     background: #f6f6f6;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     text-align: left;
-    border-radius: 15px;
 }
 .hsec6 .sec6_img{
     flex-basis: 30%;
@@ -386,7 +385,6 @@ body{
 
 /* section 6 end */
 .hsec7{
-    padding: 0 100px;
     text-align: center;
 }
 .hsec7 h1{
@@ -407,7 +405,7 @@ body{
 }
 /* section 7 end */
 .hsec8{
-    padding: 100px;
+    margin: 100px 0;
 }
 .hsec8 .card{
     padding-bottom: 20px;
@@ -429,7 +427,6 @@ body{
 /* section 8 end */
 
 .hsec9{
-    margin: 0 100px 100px;
     padding: 50px;
     background: #f6f6f6;
 }
@@ -438,7 +435,7 @@ body{
     justify-content: space-between;
     text-align: left;
     flex-wrap: nowrap;
-    align-items: flex-start;
+    align-items: stretch;
 }
 .hsec9 .card .content{
     flex-basis: 31%;

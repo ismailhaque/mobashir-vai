@@ -70,10 +70,11 @@ h1,h2,h3,h4,h5,h6{
     justify-content: space-around;
 }
 
-.header-dash button {
+.header-dash a {
     border: none;
     background-color: #fff;
     color: #000;
+    padding-right: 15px;
 }
 
 .responsive_header{
@@ -125,6 +126,39 @@ h1,h2,h3,h4,h5,h6{
 }
 .header-dash .menu-close{
     display: none;
+}
+
+.menu_cart{
+    padding: 10px;
+    border: 1px solid rgba(0,0,0,.08);
+    background: #fafafa;
+    -webkit-transition: all .6s ease-in-out;
+    transition: all .6s ease-in-out;
+    position: fixed;
+    right: 50px;
+    font-size: 16px;
+    top: 90px;
+    z-index: 9;
+    background: #FFF;
+    width: 280px;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    height: 0px;
+    display: none;
+}
+.menu_cart.active{
+    height: auto;
+    display: block;
+}
+.menu_cart ul li{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    align-items: flex-start;
+    font-family: "Montserrat";
+    margin-bottom: 10px;
 }
 
 /* header end */
@@ -1399,13 +1433,20 @@ input:focus {
     cursor: pointer;
 }
 
-
-
   /* individual css end */
-  .cart_sec1{
-      padding: 150px 100px 50px;
-      min-height: 100vh;
-  }
-  .related_course {
-    padding: 50px 0px;
+  
+.login_sec{
+    width: 100%;
+    height: 800px;
+    background: #fcf9f2;
+    position: relative;
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.login_sec .con_width{
+    width: 400px;
+}
+.login_sec .con_width .submit-btn{
+    width: 100%;
 }

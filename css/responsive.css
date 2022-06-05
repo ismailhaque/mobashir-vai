@@ -422,6 +422,8 @@
     }
     .fsec10 .col3 {
         flex-basis: 100%;
+        margin-left: -20px;
+        margin-right: 0;
     }
     .fsec10 .col3 {
         justify-content: space-between;

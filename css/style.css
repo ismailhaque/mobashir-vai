@@ -497,6 +497,9 @@ h1,h2,h3,h4,h5,h6{
     text-align: left;
     align-items: flex-start;
 }
+.fsec10 .col1, .fsec10 .col2, .fsec10 .col3{
+    flex-basis: 32%;
+}
 .fsec10 .col1 img{
     display: block;
     width: 150px;
@@ -527,6 +530,7 @@ h1,h2,h3,h4,h5,h6{
     flex-direction: row;
     align-content: flex-start;
     align-items: flex-end;
+    margin-right: -20px;
 }
 .fsec10 .col3 a{
     padding:0px 20px;

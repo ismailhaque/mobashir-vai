@@ -135,7 +135,7 @@ h1,h2,h3,h4,h5,h6{
     -webkit-transition: all .6s ease-in-out;
     transition: all .6s ease-in-out;
     position: fixed;
-    right: 50px;
+    right: 45px;
     font-size: 16px;
     top: 90px;
     z-index: 9;
@@ -1451,3 +1451,210 @@ input:focus {
     width: 100%;
 }
 /* ************** log in page & register page complated */
+.cart-sec1{
+    padding: 150px 100px 100px;
+    min-height: 100vh;
+    background: #f9f9f9;
+}
+.cart-sec1 .con_width .content{
+    background: #fff;
+    padding: 50px;
+}
+.cart-sec1 .con_width .content .row1{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0,.08);
+    padding: 10px 20px;
+    border-top: 3px solid #8fae1b;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.cart-sec1 .con_width .content .row2{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    align-items: flex-start;
+}
+.cart-sec1 .con_width .content .row2 .col2{
+    border: 1px solid rgba(0,0,0,.08);
+    padding: 10px 20px;
+}
+.cart-sec1 .con_width .content .row2 .col2 h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0,0,0,.08);
+}
+.cart-sec1 .con_width .content .row2 .col2 p{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.cart-sec1 .con_width .content .row2 .col1{
+    flex-basis: 69%;
+}
+.cart-sec1 .con_width .content .row2 .col2{
+    flex-basis: 29%;
+}
+.cart-sec1 .con_width .content .row2 .col2 a{
+    background: #606060;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 7px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.cart-sec1 .con_width .content .row1 a{
+    background: #606060;
+    padding: 10px 20px;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 7px;
+    text-align: center;
+}
+.cart-sec1 .con_width h2{
+    font-size: 70px;
+}
+
+/* code paen */
+
+.cart .table{
+    margin-bottom: 30px;
+    border-bottom: 1px solid #fff;
+    width: 100%;
+    text-align: left;
+}
+.cart .table thead tr th{
+    border-top:0px;
+    font-size:20px;
+    font-weight: bold;
+    border-bottom:0px;
+    font-family: "Montserrat";
+}
+.cart .table thead tr td{
+    padding-top:30px;
+    padding-bottom: 30px;
+    vertical-align: middle;
+    align-self: center;
+    font-size: 16px;
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #7a7a7a;
+}
+.cart .table tbody tr td .main .d-flex{
+    padding-right: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 10px 0px;
+}
+.cart .table tbody tr td .main .d-flex img{
+    display: inline;
+    border-radius: 3px;
+}
+.cart .table tbody tr td .main .des{
+    vertical-align: middle;
+    align-self: center;
+}
+.cart .table tbody tr td .main p{
+    margin: 0px;
+    padding-left: 10px;
+}
+.cart .table tbody tr td h6{
+    font-size: 15px;
+    color: #7a7a7a;
+    margin-bottom: 0px;
+    font-weight: 300;
+}
+.cart .table tbody tr td .counter{
+    margin-bottom:0px;
+}
+.cart .table tbody tr td .counter input{ 
+    height: 30px;
+    outline: none;
+    box-shadow: none;
+    max-width: 60px;
+    text-align: center;
+    border: 1px solid rgba(0,0,0,.08);
+}
+
+.cupon_code_update {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cupon_code_update a{
+    display: block;
+    background: #606060;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    padding: 10px 20px;
+}
+.cupon_code_update form {
+    display: inline-block;
+}
+.cupon_code_update form p{
+    float: left;
+    margin-right: 10px;
+}
+.cupon_code_update form p input[type="text"]{
+    height: 30px;
+    padding: 0 10px;
+    border: 1px solid rgba(0,0,0,.08);
+    border-radius: 5px;
+}
+.cupon_code_update form p input[type="submit"]{
+    background: #606060;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    height: 30px;
+    padding: 0 20px;
+}
+/* ************cart page done ****************** */
+.checkout_sec1 .con_width .content .row1 {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(0,0,0,.08);
+    padding: 0px 20px;
+    border-top: 3px solid #5db4f9;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.checkout_sec1 .con_width .content .row2 p{
+    line-height: 1.35em;
+    font-size: 1.8rem;
+    color: #282828;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+.checkout_sec1 .con_width .content .row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.checkout_sec1 .con_width .content .row2 .col1{
+    flex-basis: 49%;
+}
+.checkout_sec1 .con_width .content .row2 .col2{
+    flex-basis: 49%;
+}
+.checkout_sec1 .con_width {
+    background: #fff;
+    padding: 50px;
+}
+.checkout_sec1 {
+    padding: 150px 50px 100px;
+    min-height: 100vh;
+    background: #f9f9f9;
+}
+.checkout_sec1 .con_width h2 {
+    font-size: 70px;
+}

@@ -197,6 +197,12 @@
         padding-left: 50px;
     }
     /* ***************terms $ condition page done */
+    .cart-sec1 {
+        padding: 150px 50px 100px;
+        min-height: 100vh;
+        background: #f9f9f9;
+    }
+    
 }
 /***laptop width***/
 @media(max-width: 992px){
@@ -294,6 +300,17 @@
         flex-basis: 48%;
     }
     /* ****************** invidual page done ***************** */
+    .cart-sec1 .con_width .content .row2 {
+    flex-direction: column;
+    }
+    .cart-sec1 .con_width .content .row2 .col1{
+    flex-basis: 100%;
+    margin-bottom: 20px;
+    }
+    .cart-sec1 .con_width .content .row2 .col2{
+    flex-basis: 100%;
+    width: 100%;
+    }
 
 }
 /***tab width***/
@@ -495,6 +512,19 @@
         width: 100%;
     }
     /* ******************* contact page done ************ */
+    .cart-sec1 .con_width .content {
+        background: #fff;
+        padding: 10px;
+    }
+    .cupon_code_update form {
+        display: block;
+    }
+    .cupon_code_update form p {
+        margin-bottom: 10px;
+    }
+    .cupon_code_update {
+        align-items: flex-start;
+    }
 
 }
 /***fablate width***/
@@ -718,5 +748,15 @@ video {
     padding: 20px;
 }
 /* ***************terms $ condition page done */
+.cart-sec1 {
+    padding: 150px 20px 100px;
+}
+.cupon_code_update form {
+    display: inline-block;
+    flex-basis: 100%;
+}
+.cupon_code_update {
+    flex-direction: column;
+}
 }
 /***phone width***/

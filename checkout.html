@@ -52,6 +52,10 @@
             <li><img style="width: 30px; height: 30px; object-fit: cover; margin-right: 20px;" src="./img/1633288.png" alt=""> faculty of trained and experienced professionals. <a href="#"> <i style="color: red; cursor: pointer; font-size: 22px;" class="fas fa-times"></i> </a> </li>
             <li><img style="width: 30px; height: 30px; object-fit: cover; margin-right: 20px;" src="./img/1633288.png" alt=""> faculty of trained and experienced professionals. <a href="#"> <i style="color: red; cursor: pointer; font-size: 22px;" class="fas fa-times"></i> </a> </li>
         </ul>
+        <div class="cart_checkout_page_btn">
+          <a href="cart.html">View Cart</a>
+          <a href="checkout.html">Checkout</a>
+        </div>
      </div>
     <!-- end -->
         <section class="checkout_sec1">
@@ -59,14 +63,59 @@
                 <h2>Checkout</h2>
                 <div class="content">
                     <div class="row1">
-                        <p><i style="padding-right: 20px; color: #5db4f9;" class="fas fa-info"></i>Returning customer? <a href="#">Click here to login</a></p>
+                        <p><i style="padding-right: 20px; color: #5db4f9;" class="fas fa-info"></i>Returning customer? <a href="#" id="checkout_login_button">Click here to login</a></p>
+                    </div>
+                    <div class="contact_form checkout_login">
+                        <p>If you have shopped with us before, please enter your details below. If you are a new customer, please proceed to the Billing section.</p>
+                        <div class="contain">
+                            <div class="wrapper">
+                              <div class="form">
+                                <form id="submit-form" action="">
+                                  <p class="full-width">
+                                    <input id="name" class="form-input" type="text" placeholder="Email or Username*">
+                                    <small class="name-error"></small>
+                                  </p>
+                                  <p class="full-width">
+                                    <input id="name" class="form-input" type="password" placeholder="Your Password*">
+                                    <small class="name-error"></small>
+                                  </p>
+                                  <p>
+                                    <input style="padding-right: 10px;" id="form-input" id="form-input" type="checkbox"><label style="display: inline; padding-left: 10px;" for="form-input">Remember me</label>
+                                    <small class="name-error"></small>
+                                  </p>
+                                  <p class="full-width">
+                                    <input style="cursor: pointer;" type="submit" class="submit-btn" value="LOG IN">
+                                  </p>
+                                  <p class="full-width">
+                                    <a href="#">Lost your password?</a>
+                                  </p>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
                     </div>
                     <div class="row1">
-                        <p><i style="padding-right: 20px; color: #5db4f9;" class="fas fa-info"></i>Have a coupon? <a href="#">Click here to enter your code</a></p>
+                        <p><i style="padding-right: 20px; color: #5db4f9;" class="fas fa-info"></i>Have a coupon? <a href="#" id="checkout_cuponcode_button">Click here to enter your code</a></p>
+                    </div>
+                    <div class="contact_form checkout_cuponcode">
+                        <div class="contain">
+                            <div class="wrapper">
+                              <div class="form">
+                                <form id="submit-form" action="">
+                                  <p>
+                                    <input id="Coupon" class="form-input" type="text" placeholder="Coupon Code">
+                                    <small class="name-error"></small>
+                                  </p>
+                                  <p>
+                                    <input style="cursor: pointer; padding: auto 20px; text-align: center;" type="Apply Coupon" class="submit-btn" value="Apply Coupon Code">
+                                  </p>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
                     </div>
                     <div class="row2">
                         <div class="col1">
-                            <div class="content">
                                 <p>Billing details</h2>
                                 <div class="contact_form">
                                     <div class="contain">
@@ -90,10 +139,8 @@
                                         </div>
                                       </div>
                                 </div>
-                            </div>
                         </div>
                         <div class="col2">
-                            <div class="content">
                                 <p>Additional information</p>
                                 <div class="contact_form">
                                     <div class="contain">
@@ -109,7 +156,6 @@
                                         </div>
                                       </div>
                                 </div>
-                            </div>
                         </div>
                     </div>
                     <div class="row3">
@@ -161,7 +207,7 @@
                         <div>
                             <p>Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.</p>
                             <input type="checkbox" name="condition" id="condition" value="I have read and agree to the website">
-                            <label style="font-family: Montserrat; font-size: 16px; font-weight: bold;" for="condition">I have read and agree to the website <a href="#">terms and conditions</a></label>
+                            <label style="font-family: Montserrat; font-size: 16px; font-weight: bold;" for="condition">I have read and agree to the website <a target="_blank" href="terms-condition.html">terms and conditions</a></label>
                         </div>
                     </div>
                     <div class="row5">
@@ -192,5 +238,6 @@
         </div>
     </section>
     <script src="./js/menu.js"></script>
+    <script src="./js/checkout.js"></script>
 </body>
 </html>

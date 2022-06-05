@@ -1646,7 +1646,7 @@ input:focus {
 .checkout_sec1 .con_width .content .row2 .col2{
     flex-basis: 49%;
 }
-.checkout_sec1 .con_width {
+.checkout_sec1 .con_width .content{
     background: #fff;
     padding: 50px;
 }
@@ -1694,4 +1694,50 @@ input:focus {
 }
 .checkout_sec1 .con_width .content .row4 div{
     padding: 10px 20px 20px;
+}
+.checkout_login{
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,.08);
+    transition: .5s;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    display: none;
+}
+.checkout_login.active{
+    height: auto;
+    opacity: 1;
+    display: block;
+}
+.checkout_cuponcode{
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid rgba(0,0,0,.08);
+    transition: .5s;
+    height: 0px;
+    overflow: hidden;
+    opacity: 0;
+    display: none;
+}
+.checkout_cuponcode.active{
+    height: auto;
+    opacity: 1;
+    display: block;
+}
+.cart_checkout_page_btn{
+    background: #e5e5e5;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.cart_checkout_page_btn a{
+    display: block;
+    background: #606060;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 3px;
+    text-align: center;
+    border: none;
+    padding: 10px;
 }

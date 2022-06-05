@@ -1658,3 +1658,19 @@ input:focus {
 .checkout_sec1 .con_width h2 {
     font-size: 70px;
 }
+.woocommerce-checkout-review-order-table thead {
+    font-size: 25px;
+    color: #282828;
+    font-weight: 300;
+    font-family: "Montserrat";
+    padding-bottom: 20px;
+}
+.woocommerce table.shop_table {
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    border-collapse: separate;
+}
+.woocommerce table.shop_table thead {
+    border-bottom: 2px solid rgba(0,0,0,.08);
+}

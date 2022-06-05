@@ -1658,19 +1658,40 @@ input:focus {
 .checkout_sec1 .con_width h2 {
     font-size: 70px;
 }
-.woocommerce-checkout-review-order-table thead {
+.woocommerce-checkout-review-order-table thead p{
     font-size: 25px;
     color: #282828;
     font-weight: 300;
     font-family: "Montserrat";
-    padding-bottom: 20px;
 }
-.woocommerce table.shop_table {
-    margin: 0 -1px 24px 0;
-    text-align: left;
-    width: 100%;
-    border-collapse: separate;
+.woocommerce-checkout-review-order-table{
+    font-family: "Montserrat";
 }
-.woocommerce table.shop_table thead {
+.woocommerce-checkout-review-order-table td {
     border-bottom: 2px solid rgba(0,0,0,.08);
+    padding: 10px 0;
+}
+.woocommerce-checkout-review-order-table tfoot th, .woocommerce-checkout-review-order-table tfoot td {
+    border-bottom: 2px solid rgba(0,0,0,.08);
+    padding: 10px 0;
+}
+.checkout_sec1 .con_width .content .row4{
+    border: 1px solid rgba(0,0,0,.08);
+    margin-top: 30px;
+}
+.checkout_sec1 .con_width .content .row5{
+    margin-top: 30px;
+}
+.checkout_sec1 .con_width .content .row5 a{
+    text-align: center;
+    display: block;
+    background: #ffc439;
+    padding: 15px 0;
+}
+.checkout_sec1 .con_width .content .row5 a img{
+    text-align: center;
+    width: auto;
+}
+.checkout_sec1 .con_width .content .row4 div{
+    padding: 10px 20px 20px;
 }

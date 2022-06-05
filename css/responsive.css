@@ -311,6 +311,13 @@
     flex-basis: 100%;
     width: 100%;
     }
+    .checkout_sec1 .con_width {
+        background: #fff;
+        padding: 20px;
+    }
+    .checkout_sec1 .con_width .content .row2 p {
+        font-size: 1.7rem;
+    }
 
 }
 /***tab width***/
@@ -524,6 +531,17 @@
     }
     .cupon_code_update {
         align-items: flex-start;
+    }
+    .checkout_sec1 .con_width .content .row2 .col2 {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .checkout_sec1 .con_width .content .row2 .col1 {
+        flex-basis: 100%;
+        width: 100%;
+    }
+    .checkout_sec1 .con_width .content .row2 {
+        flex-direction: column;
     }
 
 }
@@ -757,6 +775,14 @@ video {
 }
 .cupon_code_update {
     flex-direction: column;
+}
+.checkout_sec1 {
+    padding: 150px 20px 100px;
+    min-height: 100vh;
+    background: #f9f9f9;
+}
+.checkout_sec1 .con_width .content .row4 div{
+    padding: 0px 10px 20px;
 }
 }
 /***phone width***/
